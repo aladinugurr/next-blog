@@ -1,10 +1,5 @@
-import { SignInButton, SignUpButton } from "@clerk/nextjs";
-import { SignIn } from "@clerk/nextjs";
+const page = () => {
+	return <div>Login Page</div>;
+};
 
-export default function page() {
-	return (
-		<div className="h-[80vh] flex items-center justify-center">
-			<SignIn />
-		</div>
-	);
-}
+export default page;
