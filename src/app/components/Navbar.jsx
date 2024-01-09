@@ -17,7 +17,8 @@ const Navbar = async () => {
 						<Link href={`${item.link}`}>{item.name}</Link>
 					</li>
 				))}
-				{!user && <Button url="/login" title="login" />}
+				{!user && <Button url="/sign-in" title="Sign in" />}
+				{!user && <Button url="/sign-up" title="Sign up" />}
 				{user && user.firstName + " " + user.lastName}
 				<UserButton afterSignOutUrl="/" />
 			</div>
