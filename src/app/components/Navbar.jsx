@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
 	return (
-		<nav className="flex justify-between pt-10 max-md:flex-col max-md:justify-center max-md:items-center mb-10">
+		<nav className="flex justify-between pt-10 max-md:flex-col max-md:justify-center max-md:items-center">
 			<h1 className="font-bold text-xl">Lamamia</h1>
 			<div className="flex gap-6 items-center max-md:flex-col">
 				<div>theme</div>
